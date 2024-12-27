@@ -83,20 +83,6 @@
         "contactEmail": "contact@ipsumlorem.com",
         "contactPhone": "555-555-5555"
       }
-    },
-    {
-      "id": "ce59",
-      "title": "Test Job",
-      "type": "Full-Time",
-      "description": "This is a test Job",
-      "location": "Colombo, Sri Lanka",
-      "salary": "Under $50K",
-      "company": {
-        "name": "Foxster",
-        "description": "Test",
-        "contactEmail": "test@gmail.com",
-        "contactPhone": "077 555 5555"
-      }
     }
   ]
 }
