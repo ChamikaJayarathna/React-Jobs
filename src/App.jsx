@@ -4,16 +4,17 @@ import Hero from './components/Hero';
 import HomeCards from './components/HomeCards';
 import JobListings from './components/JobListings';
 import ViewAllJobs from './components/ViewAllJobs';
+import { createBrowserRouter, createRoutesFromChildren, Route, RouterProvider } from 'react-router-dom';
+
+const router = createBrowserRouter(
+  createRoutesFromChildren(
+    <Route index element={<h1>Hello World</h1>} />
+  )
+);
 
 const App = () => {
   return (
-    <div className="">
-      <NavBar/>
-      <Hero />
-      <HomeCards/>
-      <JobListings/>
-      <ViewAllJobs/>
-    </div>
+    <RouterProvider router={router} />
   );
 }
 
