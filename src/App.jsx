@@ -1,14 +1,10 @@
 import React from 'react';
-import NavBar from './components/NavBar';
-import Hero from './components/Hero';
-import HomeCards from './components/HomeCards';
-import JobListings from './components/JobListings';
-import ViewAllJobs from './components/ViewAllJobs';
 import { createBrowserRouter, createRoutesFromChildren, Route, RouterProvider } from 'react-router-dom';
+import HomePage from './pages/HomePage';
 
 const router = createBrowserRouter(
   createRoutesFromChildren(
-    <Route index element={<h1>Hello World</h1>} />
+    <Route index element={<HomePage/>} />
   )
 );
 
